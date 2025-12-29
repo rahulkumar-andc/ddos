@@ -1,0 +1,25 @@
+# Proxy List for Distributed Testing
+# Format: protocol://ip:port
+# Example: http://proxy1.example.com:8080
+#          socks5://proxy2.example.com:1080
+
+# Add your legitimate proxies here (one per line)
+# You can use:
+# 1. Your own proxy servers
+# 2. Commercial proxy services (rotating proxies)
+# 3. Free proxy lists (less reliable)
+
+# Examples (REPLACE WITH REAL PROXIES):
+# http://proxy1.yourservice.com:8080
+# http://proxy2.yourservice.com:8080
+# socks5://127.0.0.1:9050
+
+# FREE PROXY SOURCES (for testing only, use at your own risk):
+# - https://www.proxy-list.download/
+# - https://free-proxy-list.net/
+# - https://www.sslproxies.org/
+
+# RECOMMENDED: Use Tor instead
+# Install: sudo apt install tor
+# Start: sudo systemctl start tor
+# The script will auto-detect and use Tor (127.0.0.1:9050)
